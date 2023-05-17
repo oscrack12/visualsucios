@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>maMusik</title>
-    <link rel="stylesheet" href="/css/camera.css">
+     <!--Preload-->
+	<link rel="preload" href="/css/camera.css" as="style">
+	<link rel="stylesheet" href="/css/camera.css">
 </head>
 
 <body>
 <video autoplay muted loop id="myVideo">
         <source
+            loading="lazy"
             src="https://firebasestorage.googleapis.com/v0/b/vzl95-9abcf.appspot.com/o/autovid%2F2022-06-22%2023-07-12_Trim_Trim_Trim.mp4?alt=media&token=a7b9040c-46d4-453c-8919-e9e9a215cf4b"
             type="video/mp4">
     </video>

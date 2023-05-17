@@ -3,7 +3,11 @@
             <meta charset="utf-8">
             <title>Labels</title>
             <link rel="icon" href="images/fantasma3.png">
-            <link rel="stylesheet" type="text/css" href="css/estilos2.css">
+            <!--Preload-->
+            <link rel="preload" href="/css/estilos2.css" as="style">
+            <link rel="stylesheet" href="/css/estilos2.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigi
             <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     </head>
@@ -21,7 +25,7 @@
                 </center>
                     <figure>
 
-                        <img src="images/Tweet.png" alt="Labels de un tweet" class="tweet">
+                        <img loading="lazy" src="images/Tweet.png" alt="Labels de un tweet" class="tweet">
                         <p class="principal">
                           El sitio está diseñado con Twitter API y con las apps que esté nos proporciona,
                           esto para poder enviar tweets desde tu cuenta, brindandonos acceso al "Twitter for..."

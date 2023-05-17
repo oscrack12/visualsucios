@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
 	<title>Visual</title>
 	<link rel="icon" href="images/fantasma3.png">
-    <link rel="stylesheet" type="text/css" href="css/estilos5.css">
+    <!--Preload-->
+	<link rel="preload" href="/css/estilos5.css" as="style">
+	<link rel="stylesheet" href="/css/estilos5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie-edge">
@@ -13,7 +17,7 @@
 <body>
 <div class="contenedor">
     <title>Site Maintenance</title>
-    <marquee direction="right"> <img src="/images/fantasma4.png" width="20%"></marquee>
+    <marquee direction="right"> <img loading="lazy" src="/images/fantasma4.png" width="20%"></marquee>
     <h1>Ops!, !esto aun no sirve!</h1>
     <div>
         <p>Espero completarlo pronto; si tanto te inquieta, mi  
